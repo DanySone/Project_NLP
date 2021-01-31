@@ -1,17 +1,15 @@
-# Project_NLP
-
-Project Description: Scaping, Text Preprocessing, Classification & Sentiment Analysis
+# Project Description: Scaping, Text Preprocessing, Classification & Sentiment Analysis
 
 
-Project Summary
+## Project Summary
 As a part of the curriculum of the Master 1 (M1) course entitled “Advanced Machine Learning and Text Mining”, the students will complete two project work. This is the first project called “Text pre-processing, Classification and Sentiment Analysis” which is focused on pre-processing texts, having a solid example on text classification and performing analysis to extract positive and negative sentiments. 
 The datasets required for this project will be delivered to the students. Besides, a Jupyter notebook will be available. 
 The following sections provide necessary information about the datasets and the Jupyter notebook. Also, the project tasks are explained. 
 For any further detail, please contact the instructor: Khodor Hammoud 
 
-1. About Dataset
+## 1. About Dataset
 The datasets provided for this project are about speeches of US presidents, collected from millercenter.org. 11 datasets are containing the speech of different presidents including Barack Obama, Bill Clinton, G.W. Bush. The students are to run the code from the provided notebook to complete the data collection.
-2. About the provided Notebook
+## 2. About the provided Notebook
 A notebook named “scraping-presidential-speeches” is provided which contains the code required to scrape the site for the speeches. You must put this notebook and the dataset folder “presidents-speeches” in the same directory.
 Once you’ve run the code and scraping is completed, The final files structure will be as so:
 presidents-speeches > [president_x_name] > speeches > [president_x_speeches]
@@ -20,9 +18,9 @@ All groups will use these scraped data to perform their required tasks.
 Note: 
 You are highly encouraged to inspect the code and understand how it works. It is important because in the future project you would scrap data from online sources.
 
-3. Tasks Description
+## 3. Tasks Description
 This project is composed of two parts: Part A and Part B.  Each group (consisting of two students) shall complete the tasks of both Parts A and Part B. See the description of the tasks in the following sections: 
-3.1 Part-A
+### 3.1 Part-A
 You will apply text categorization techniques on the collected datasets. The input is the speeches of the presidents, the label is the name of the corresponding president.
 The final goal is, given a presidential speech, to be able to identify who is the president that delivered the speech. To that end, carry out the following tasks:
 Your Tasks
@@ -33,7 +31,7 @@ Your Tasks
 -	Save your trained model, and be ready to load it in your presentation
 -	Have a ready example to run during the presentation
 When presenting your work, all the code should be presented in a notebook (Jupyter, google colab…).
-3.2 Part-B
+### 3.2 Part-B
 You will apply sentiment analysis on the datasets provided using a pre-trained sentiment analysis model from NLTK called VADER. Here’s a good article with examples on the usage of VADER:
 https://medium.com/analytics-vidhya/simplifying-social-media-sentiment-analysis-using-vader-in-python-f9e6ec6fc52f
 Surely you are free to do your research on VADER well.
